@@ -8,8 +8,6 @@ import { Footer } from '@/component/footer'
 
 const products = [
 
-  { id: 2, category: 'Beading', name: 'Elegant Beaded Necklace', img: '/images/bead1.jpg' },
-
   { id: 4, category: 'Beading', name: 'Elegant Beaded Material', img: '/images/bead5.jpg' },
   { id: 5, category: 'Beading', name: 'Elegant Beading Style', img: '/images/bead7.jpg' },
 

@@ -9,17 +9,9 @@ import { useState, useEffect } from 'react'
 
 import { FaInstagram, FaWhatsapp } from 'react-icons/fa'
 
-// const images = [
-//   'https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=1200&q=80',
-//   'https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=1200&q=80',
-//   'https://images.unsplash.com/photo-1584302179602-e4c3d3fd629d?auto=format&fit=crop&w=1200&q=80',
-// ]
-
 const images = [
-   
-  '/images/bead1.jpg',
+
   '/images/bead2.png',
-  // '/dress/bead3.png',
    '/images/bead4.png',
    '/images/bead5.jpg',
    '/images/bead6.jpg',
