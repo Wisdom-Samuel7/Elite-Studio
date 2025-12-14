@@ -102,12 +102,12 @@ export default function CollectionPage() {
       </section>
 
       {/* Filter Buttons */}
-      <section className="mb-12 flex justify-center gap-4">
+      <section className="mb-12 flex justify-center gap-1">
         {categories.map(cat => (
           <button
             key={cat}
             onClick={() => setFilter(cat)}
-            className={`px-6 py-3 rounded-xl border transition ${filter === cat ? 'bg-gray-900 text-white border-gray-900' : 'bg-gray-50 text-gray-900 border-gray-300 hover:bg-gray-100'}`}
+            className={`px-4 py-3 rounded-xl border transition ${filter === cat ? 'bg-gray-900 text-white border-gray-900' : 'bg-gray-50 text-gray-900 border-gray-300 hover:bg-gray-100'}`}
           >
             {cat}
           </button>
